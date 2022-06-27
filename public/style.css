@@ -1,0 +1,201 @@
+/*NavBar*/
+
+#navImg {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.sticky-top-2 {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 60px;
+    z-index: 1030;
+}
+
+
+/*Footer*/
+
+#imgLogo {
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#imgLogoUT {
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 25px;
+}
+
+#imgIcono {
+    height: 30px;
+    margin-left: 10px;
+}
+
+#imgIcono2 {
+    height: 50px;
+    margin-left: 10px;
+}
+
+footer {
+    height: 170px;
+    background-color: rgb(112, 8, 72);
+    margin-top: 20px;
+}
+
+#footerBoton {
+    margin-top: 50px;
+}
+
+#copyright {
+    text-align: center;
+    font-size: 15px;
+}
+
+#lineaFooter {
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    height: 3px;
+    width: 90%;
+    background-color: rgb(255, 163, 126);
+}
+
+footer p {
+    color: floralwhite;
+}
+
+#redes {
+    margin-top: 30px;
+}
+
+
+/*Header*/
+
+#header {
+    height: 550px;
+}
+
+#header img {
+    height: 550px;
+}
+
+
+/*Index*/
+
+.main-index {
+    margin-top: 30px;
+}
+
+.h4-center {
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.cardIndex {
+    margin: auto;
+}
+
+.cardIndex img {
+    width: 90%;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+#filaMediaindex {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#filaMediaindex img {
+    margin-top: 25px;
+    margin-left: 13%;
+    width: 95%;
+    height: 200px;
+}
+
+#filaBajaindex {
+    align-items: center;
+    margin: auto;
+}
+
+.imgFilaBajaindex {
+    width: 90%;
+    height: 200px;
+}
+
+
+/* Configuracion de pantallas de computadora */
+
+@media (min-width: 1200px) {
+    #content {
+        width: 1200px;
+        margin: auto;
+        bottom: 0;
+    }
+    /*header */
+    #header {
+        height: 420px;
+    }
+    #header img {
+        height: 420px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    /*Header*/
+    #header {
+        height: 410px;
+    }
+    #header img {
+        height: 410px;
+    }
+}
+
+
+/* Configuracion de pantallas de tabletas */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /*Header*/
+    #header {
+        height: 390px;
+    }
+    #header img {
+        height: 390px;
+    }
+}
+
+
+/* Configuracion de pantallas de moviles */
+
+@media (min-width: 500px) and (max-width: 767px) {
+    /*Header*/
+    #header {
+        height: 280px;
+    }
+    #header img {
+        height: 280px;
+    }
+    /*Footer*/
+    #imgIcono {
+        height: 20px;
+        margin-left: 10px;
+    }
+    #imgLogo {
+        height: 70px;
+        margin-left: 5px;
+        margin-top: 30px;
+    }
+    #imgLogoUT {
+        height: 65px;
+        margin-left: 5px;
+        margin-top: 30px;
+    }
+    #quitarColumna{
+        display:none;
+    }
+    
+}

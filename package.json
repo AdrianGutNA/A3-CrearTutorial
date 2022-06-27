@@ -1,0 +1,16 @@
+{
+    "name": "a3-creartutorial",
+    "version": "1.0.0",
+    "description": "A3-CrearTutorial",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon src/servidor.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "AdrianGN",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.1",
+        "nodemon": "^2.0.16"
+    }
+}
